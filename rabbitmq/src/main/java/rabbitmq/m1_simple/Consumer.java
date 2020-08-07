@@ -33,6 +33,7 @@ public class Consumer {
             }
         };
 
+
         ch.basicConsume("Helloworld", true, callback, cancel);
     }
 }
